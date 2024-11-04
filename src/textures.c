@@ -1,7 +1,7 @@
 #include "../headers/textures.h"
-#include <stddef.h>
-#include <stdio.h>
 
+// Define the array with a specific size
+upng_t* textures[NUM_TEXTURES]; // Replace NUM_TEXTURES with your actual number of textures
 
 static const char* texture_file_name[NUM_TEXTURES] = {
     "./images/redbrick.png",
